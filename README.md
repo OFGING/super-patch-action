@@ -1,27 +1,26 @@
 <div align=center>
 <h1> Super Patch In Action</h1>
-A Samsung super.img Editor for you to install GSI (Geneeric System Image) on the web!
+Редактор Samsung super.img для установки GSI (Generic System Image) прямо из браузера!
 
-No Linux, or WSL, or Termux Needed!
+Никакого Linux, WSL или Termux!
 
-> Note:<br> In January 2025, this area will undergone fixing to make sure it is user friendly as possible
+> Примечание:<br> В январе 2025 года этот раздел будет переработан, чтобы сделать его максимально удобным для пользователей.
 </div>
 
 ----
 
 <div align=center>
-<h3>Badges</h3>
+<h3>Значки</h3>
 
-![alttext](https://img.shields.io/static/v1?label=Status&message=Working&color=brightgreen) ![alttext](https://img.shields.io/badge/Latest_Version-v0.3-purple) ![alttext](https://img.shields.io/badge/SFTP_to_SourceForge-GOOD-BrightGreen?style=flat&logo=Sourceforge) 
+![Статус](https://img.shields.io/static/v1?label=Status&message=Working&color=brightgreen) ![Версия](https://img.shields.io/badge/Latest_Version-v0.3-purple) ![SFTP](https://img.shields.io/badge/SFTP_to_SourceForge-GOOD-BrightGreen?style=flat&logo=Sourceforge) 
 
-[![alttext](https://img.shields.io/badge/-Visit_Mizumo/Xynoxx's_SourceForge_By_clicking_ME-black?style=for-the-badge&logo=Sourceforge&logoColor=f5f5f5)](https://sourceforge.net/projects/xynoxx-prebuilt-gsi/files/) 
+[![SourceForge](https://img.shields.io/badge/-Visit_Mizumo/Xynoxx's_SourceForge_By_clicking_ME-black?style=for-the-badge&logo=Sourceforge&logoColor=f5f5f5)](https://sourceforge.net/projects/xynoxx-prebuilt-gsi/files/) 
 
+[![Оффлайн версия](https://img.shields.io/badge/-Check_out_the_Offline_Version_Instead_by_clicking_ME!-purple?style=for-the-badge)](https://github.com/SUFandom/super-patch) 
 
-[![alttext](https://img.shields.io/badge/-Check_out_the_Offline_Version_Instead_by_clicking_ME!-purple?style=for-the-badge)](https://github.com/SUFandom/super-patch) 
+[![Telegram](https://img.shields.io/badge/-Check_us_on_Telegram,_Exynos_850_Testing_&_Development_By_Clicking_me-yellow?style=for-the-badge&logo=Telegram)](https://t.me/a12schat)
 
-[![alttext](https://img.shields.io/badge/-Check_us_on_Telegram,_Exynos_850_Testing_&_Development_By_Clicking_me-yellow?style=for-the-badge&logo=Telegram)](https://t.me/a12schat)
-
-*thats a **LOT** of Badges*
+*Это **ОЧЕНЬ** много значков*
 
 
 
@@ -30,41 +29,40 @@ No Linux, or WSL, or Termux Needed!
 
 ----
 
-
 <div align=center> 
-<h3>What is this?</h3>
+<h3>Что это?</h3>
 
-This is a repository that can make your inserting your favourite ROM to your samsung device, best, with no more pesky hardware requirements, " *looking at you, super-patch with no proper WSL1 support* "
+Это репозиторий, который поможет вам установить вашу любимую прошивку на ваше устройство Samsung, без каких-либо надоедливых требований к оборудованию, " *смотрю на тебя, super-patch без нормальной поддержки WSL1* "
 
-Right now, the options are very confusing at best:
+Сейчас варианты в лучшем случае очень запутанные:
 
 ![wth](images/cvs-recipt.png) 
 
-istg this is hell-looking, im still new with the yaml stuff
+клянусь, это выглядит как ад, я все еще новичок в yaml
 
-and the source structure is uhhhhhhh:
+и структура исходников, эээээээ:
 
 ![oh_naw_hell_naw_tf_man](images/someone-dont-let-him-cook-yaml-because-this-is-beyond-raiden-ei-cooking-here.png)
 
 ![frieren](images/Sousou-no-Frieren-Frieren-portada.webp)
 
-I swear ill clean this up, in the coming updates of the script and make it easy to use at least
+Клянусь, я приберусь здесь в следующих обновлениях скрипта и сделаю его хотя бы простым в использовании
 
 <div align=center>
 
-### Why is this
+### Почему это
 
-Yeah, what's the reason why this is the 'best' option of patching super.img?
+Да, почему это «лучший» вариант для патчинга super.img?
 
-Table:
+Таблица:
 
-| Conditions            	| SUPER-PATCH [LOCAL]                                                                                                                                                                                                                                                         	| **THE ALL NEW SUPER-PATCH-ACTIONS**                                                         	|
+| Условия            	| SUPER-PATCH [ЛОКАЛЬНО]                                                                                                                                                                                                                                                         	| **СОВЕРШЕННО НОВЫЙ SUPER-PATCH-ACTIONS**                                                         	|
 |-----------------------	|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|---------------------------------------------------------------------------------------------	|
-| Hardware Requirements 	| **Linux**<br><br>- 4GB OF RAM WITH 64GB OR MORE **SSD** RECOMMENDED, **AMD64 ONLY**<br><br>**WINDOWS**<br><br>- 8GB OF RAM + WSL 2 (Core i3, 7th Gen or Later), **SSD ONLY**<br><br>**ANDROID**<br><br>- (64 BIT ONLY) 4GB OF RAM + ARM CORTEX A55 OR LATER, 32GB STORAGE 	| Just fast Internet, and a supported Web3 Browser, LMAO                                      	|
-| STORAGE               	| 20GB AS MINIMUM, DESKTOP (SATA/NVMe SSD ONLY, FOR WINDOWS), (eMMC, SATA, NVME FOR LINUX)                                                                                                                                                                                   	| 4GB ONLY (One time super.img upload from somewhere)                                                                                	|
-| TIME BUILD            	| 13 Mins at Max, even more if the CPU is slow                                                                                                                                                                                                                           	| 7 Min to 15 Min at Max (Tested on tar only compression + aria2c to handle stuff)                                                                      	|
-| SHARE YOUR BUILD      	| REQUIRES UPLOADING, THEN SHARING LINK FOR ONLY THAT BUILD                                                                                                                                                                                                                   	| LISTS AVAILABLE IN JUST ONE LINK                                                            	|
-| NETWORK               	| Data Plan consuming                                                                                                                                                                                                                                                         	| ONE TIME UPLOAD BASE ASSETS, THEN YOU CAN JUST REUSE SUPER.IMG FILES, SAVING MORE DATA PLAN 	|
+| Требования к оборудованию 	| **Linux**<br><br>- 4 ГБ ОЗУ С 64 ГБ ИЛИ БОЛЬШЕ **SSD** РЕКОМЕНДУЕТСЯ, **ТОЛЬКО AMD64**<br><br>**WINDOWS**<br><br>- 8 ГБ ОЗУ + WSL 2 (Core i3, 7-го поколения или новее), **ТОЛЬКО SSD**<br><br>**ANDROID**<br><br>- (ТОЛЬКО 64 БИТ) 4 ГБ ОЗУ + ARM CORTEX A55 ИЛИ НОВЕЕ, 32 ГБ ПАМЯТИ 	| Просто быстрый Интернет и поддерживаемый Web3-браузер, ЛМАО                                      	|
+| ХРАНИЛИЩЕ               	| Минимум 20 ГБ, НАСТОЛЬНЫЙ ПК (ТОЛЬКО SATA/NVMe SSD ДЛЯ WINDOWS), (eMMC, SATA, NVME ДЛЯ LINUX)                                                                                                                                                                                   	| ТОЛЬКО 4 ГБ (Однократная загрузка super.img откуда-нибудь)                                                                                	|
+| ВРЕМЯ СБОРКИ            	| Максимум 13 минут, даже больше, если процессор медленный                                                                                                                                                                                                                           	| Максимум от 7 до 15 минут (протестировано только на сжатии tar + aria2c для обработки)                                                                      	|
+| ПОДЕЛИТЬСЯ СБОРКОЙ      	| ТРЕБУЕТСЯ ЗАГРУЗКА, ЗАТЕМ ПРЕДОСТАВЛЕНИЕ ССЫЛКИ ТОЛЬКО ДЛЯ ЭТОЙ СБОРКИ                                                                                                                                                                                                                   	| СПИСКИ ДОСТУПНЫ ВСЕГО ПО ОДНОЙ ССЫЛКЕ                                                            	|
+| СЕТЬ               	| Расход трафика                                                                                                                                                                                                                                                         	| ОДНОКРАТНАЯ ЗАГРУЗКА БАЗОВЫХ РЕСУРСОВ, ЗАТЕМ ВЫ МОЖЕТЕ ПРОСТО ПОВТОРНО ИСПОЛЬЗОВАТЬ ФАЙЛЫ SUPER.IMG, ЭКОНОМИЯ ТРАФИКА 	|
 
 
 
@@ -72,13 +70,13 @@ Table:
 
 <div align=center>
 
-### Special Thanks to
+### Особая благодарность
 
-@rsuntk - Rissu/RissuProject - https://gitlab.com/Rissu-Projekt - For giving Sourceforge Ideas
+@rsuntk - Rissu/RissuProject - https://gitlab.com/Rissu-Projekt - За идеи с Sourceforge
 
-@pressidium - For LFTP Action Script - https://github.com/pressidium/lftp-mirror-action
+@pressidium - За скрипт LFTP Action - https://github.com/pressidium/lftp-mirror-action
 
-@github and @microsoft - For their azure service
+@github и @microsoft - За их сервис Azure
 
 aria2
 
@@ -86,13 +84,13 @@ aria2
 
 docker
 
-@Takumi123x - who founded the idea of a script that can modify super.img - https://github.com/Takumi123x/rou
+@Takumi123x - кто придумал идею скрипта, который может модифицировать super.img - https://github.com/Takumi123x/rou
 
-@Physwizz - An Australian, on Telegram, the head of Exynos 850 Testing and Development, who gave support for this project
+@Physwizz - Австралиец, в Telegram, глава отдела тестирования и разработки Exynos 850, который оказал поддержку этому проекту
 
-@Kirithethird - A filipino who supported the core version of this, because they wanted a builder that is perfectly verbose of the process
+@Kirithethird - Филиппинец, который поддержал основную версию этого, потому что хотел сборщик, который бы подробно описывал процесс
 
-@TDD788 - TheDarkDeath788, who also contributed to Exynos 850 Testing and Development, also has some support on the core project - https://github.com/TDD788
+@TDD788 - TheDarkDeath788, который также внес свой вклад в тестирование и разработку Exynos 850, а также оказал некоторую поддержку основному проекту - https://github.com/TDD788
 
 </div>
 
@@ -101,66 +99,66 @@ docker
 </div>
 
 <div align=center>
-<h2>Table of Contents</h2>
+<h2>Содержание</h2>
 <p align=center>
-1 . <a href=#preparation>Preparation</a>
+1 . <a href=#preparation>Подготовка</a>
 <br>
-2. <a href=#upload>Upload</a>
+2. <a href=#upload>Загрузка</a>
 <br>
-3. <a href=#build>Build</a>
+3. <a href=#build>Сборка</a>
 <br>
-4. <a href=#report>Report</a>
+4. <a href=#report>Отчет</a>
 
 </div>
 
 <div align=center>
 
-## Preparation 
+## Подготовка 
 
 <p align=left>
-1. Fork this repository, by Pressing Fork on the Page
+1. Сделайте форк этого репозитория, нажав кнопку Fork на странице
 <br>
-2. Name it what you want
+2. Назовите его как хотите
 <br>
-3. Done!
+3. Готово!
 <br>
-4. Create a Sourceforge Account (Strictly necessary), follow the steps they provide and if the form box says <code>(optional)</code> , you can just leave them blank, and also don't forget to verify yourself.
+4. Создайте учетную запись Sourceforge (строго обязательно), следуйте предоставленным инструкциям, и если в поле формы написано <code>(необязательно)</code>, вы можете просто оставить их пустыми, а также не забудьте подтвердить свою учетную запись.
 <br>
-5. Create a Project, any name will do
+5. Создайте проект, подойдет любое имя
 <br>
-6. After creating a project, and followed every instruction provided by sourceforge, log in to <code>sftp</code>.
+6. После создания проекта и выполнения всех инструкций, предоставленных sourceforge, войдите в систему <code>sftp</code>.
 <br>
-6.1. Go to Terminal, enter <code>sftp (ur username)@frs.sourceforge.net</code> , then enter
+6.1. Перейдите в Терминал, введите <code>sftp (ваше имя пользователя)@frs.sourceforge.net</code>, затем нажмите Enter
 <br>
-6.2. After that, type <code>cd /home/pfs/project/(your created project in sourceforge)</code>, and you should be in that root project directory
+6.2. После этого введите <code>cd /home/pfs/project/(ваш созданный проект в sourceforge)</code>, и вы должны оказаться в корневом каталоге этого проекта
 <br>
-6.2.1. Make sure that you entered in should be followed by the link site of your project, for example:
+6.2.1. Убедитесь, что вы ввели правильную ссылку на ваш проект, например:
 <br>
 </p>
 
 ![frieren x task force 141](images/image-goes-hard.png)
 
 <p align=left>
-The red line must be the same as the target
+Красная линия должна совпадать с целью
 <br>
-6.3. Try entering <code>mkdir test</code>, enter then refresh the page, check files tab. You should see the test directory there, which means it's working
+6.3. Попробуйте ввести <code>mkdir test</code>, нажмите Enter, затем обновите страницу и проверьте вкладку files. Вы должны увидеть там каталог test, что означает, что все работает
 <br>
-7. after that please head to your repository settings and go to secrets > action, then create credentials
+7. После этого перейдите в настройки вашего репозитория и выберитенастройки > secrets > action, затем создайте учетные данные
 <br>
-7.1. Create a Repository Secret
+7.1. Создайте секрет репозитория
 <br>
-7.2. Name it: <code>SOURCEFORGE_USERNAME</code>
+7.2. Назовите его: <code>SOURCEFORGE_USERNAME</code>
 <br>
-7.3. Then enter your username 
+7.3. Затем введите ваше имя пользователя
 <br>
-7.4. After creating the username, create another secret, called <code>SOURCEFORGE_PASSWORD</code>
+7.4. После создания имени пользователя создайте еще один секрет с именем <code>SOURCEFORGE_PASSWORD</code>
 <br>
-7.5. Enter your password there, don't worry, your credentials are safe and non-duplicate
-7.6. Create another secret, name it: <code>SOURCEFORGE_REPO_TARGET</code>, see 6.2.1, copy and paste that red line
+7.5. Введите туда свой пароль, не волнуйтесь, ваши учетные данные в безопасности и не дублируются
+7.6. Создайте еще один секрет, назовите его: <code>SOURCEFORGE_REPO_TARGET</code>, см. пункт 6.2.1, скопируйте и вставьте эту красную строку
 <br>
-7.7. (For Build-v02) You need to create another secret called: <code>SFTP_REPO_LINK</code> which should try to let the visiting users know where are the mirrors
+7.7. (Для Build-v02) Вам нужно создать еще один секрет под названием: <code>SFTP_REPO_LINK</code>, который должен сообщать посетителям, где находятся зеркала
 <br>
-8. and you are Done
+8. И все готово
 </p>
 
 ![fern happy yipee](https://i.redd.it/5xnf0r8i5whc1.gif)
@@ -171,20 +169,20 @@ The red line must be the same as the target
 
 <div align=center>
 
-## Upload
+## Загрузка
 
 <p align=left>
-1. Create an account that would host your super.img file, i would recommend uploading the files to Internet Archive or file.io for some people that are familiar with their service
+1. Создайте учетную запись, на которой будет размещен ваш файл super.img, я бы порекомендовал загружать файлы на Internet Archive или file.io для тех, кто знаком с этими сервисами
 <br>
-2. Upload your super.img file, (For Internet Archive Uploaders, please name your page title when you upload, properly)
+2. Загрузите ваш файл super.img (для тех, кто загружает на Internet Archive, пожалуйста, правильно назовите заголовок вашей страницы при загрузке)
 <br>
-3. Go to the files directory
+3. Перейдите в каталог файлов
 <br>
 <img src=images/red-circle-what-de-hell.png>
 <br>
 <img src=images/dir.png>
 <br>
-4. And confirmed that it's there!
+4. И убедитесь, что он там!
 </p>
 </div>
 
@@ -192,54 +190,53 @@ The red line must be the same as the target
 
 <div align=center>
 
-## Build
+## Сборка
 
-Here is your CVS Recipt, People!
+Вот ваш кассовый чек, народ!
 
 <img src=images/another-cvs-recipt.png>
 
 <p align=left>
-1. Copy the link of uploaded super file, can be tar, lz4, or img file, just put them in the respective boxes, and only one of them are allowed, REMEMBER THAT AND STOP SENDING ISSUE PAGE ABOUT IT
+1. Скопируйте ссылку на загруженный файл super, это может быть файл tar, lz4 или img, просто вставьте их в соответствующие поля, разрешен только один из них, ЗАПОМНИТЕ ЭТО И ПЕРЕСТАНЬТЕ ОТПРАВЛЯТЬ СООБЩЕНИЯ ОБ ЭТОМ НА СТРАНИЦЕ ПРОБЛЕМ
 <br>
-2. enter what archive name you want it to be called, Default: <code>GSI-build-proto</code>
-3. Compression Type:
+2. Введите имя архива, которое вы хотите использовать, по умолчанию: <code>GSI-build-proto</code>
+3. Тип сжатия:
 <br>
-Note: setting to uncompressed, wont apply any name u entered, just <code>super.img</code>
+Примечание: при выборе без сжатия, введенное вами имя не будет применено, будет просто <code>super.img</code>
 <br>
-Another note: Selecting all, can have issues pushing to artifact, or releases , check the sourceforge instead
+Еще одно примечание: Выбор всех типов сжатия может вызвать проблемы при загрузке в артефакты или релизы, вместо этого проверяйте sourceforge
 <br>
 <br>
-Set compression Types
+Установите типы сжатия
 <br>
-- Tar (No compression, but contained, available in sourceforge)
+- Tar (Без сжатия, но упакованный, доступен на sourceforge)
 <br>
-- xz (Level 9 compression Type, can be on artifact build, releases, or sourceforge)
+- xz (Уровень сжатия 9, может быть в сборке артефактов, релизах или sourceforge)
 <br>
-- 7z (a bit larger than xz but can be available on artifact, releases, and sourceforge)
+- 7z (немного больше, чем xz, но может быть доступен в артефактах, релизах и sourceforge)
 <br>
-- raw (super.img only)
+- raw (только super.img)
 <br>
-- all (name says so, but some only available on artifacts and releases, while fully available on sourceforge)
+- all (как следует из названия, но некоторые доступны только в артефактах и релизах, в то время как все полностью доступно на sourceforge)
 <br>
-4.1. Set GSI Link in img format, just copy and paste the source link, similar method to internet archive 
+4.1. Установите ссылку на GSI в формате img, просто скопируйте и вставьте исходную ссылку, аналогично методу для internet archive
 <br>
-4.2. Set GSI link, compressed to .xz, commonly found on Phhusson's partner releases, just copy download link and paste it here, if there's an issue, please download manually, upload it and copy and paste a proper link.
+4.2. Установите ссылку на GSI, сжатую в .xz, обычно это можно найти в партнерских релизах Phhusson, просто скопируйте ссылку для скачивания и вставьте ее сюда, если возникнет проблема, скачайте вручную, загрузите и скопируйте и вставьте правильную ссылку.
 <br>
-5.Enter what directory subfolder, if you created a folder there (Sourceforge), type the folder there and add slash at the end, like: <code>FOLDER/</code>
+5.Введите название подпапки, если вы создали там папку (Sourceforge), введите имя папки и добавьте в конце слеш, например: <code>ПАПКА/</code>
 <br>
-6. Build!
+6. Сборка!
 <br>
-7. DONE!!!
+7. ГОТОВО!!!
 
 </p>
 
 </div>
 
-
 <div align=center>
 
-## Report
+## Отчет
 
-Submit your bug report at issues, ill respond to them, and make a fix
+Отправляйте свои отчеты об ошибках в раздел issues, я отвечу на них и исправлю
 
 </div>

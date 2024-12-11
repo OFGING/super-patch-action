@@ -1,4 +1,4 @@
-name: Patch GSI to Samsung Super Image v.0.2
+name: Патч GSI для Samsung Super Image v.0.2
 
 on:
     workflow_dispatch:
